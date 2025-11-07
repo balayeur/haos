@@ -1,3 +1,4 @@
 /BddReqest/.venv
 BddReqest/config.py
 .DS_Store
+/BddReqest/__pycache__
