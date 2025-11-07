@@ -13,8 +13,8 @@ headers = {
 
 params = {
     "filter_entity_id": "sensor.burnerroom_boiler_temperature",
-    "start_time": "2025-11-05T00:00:00+00:00",  # Убедитесь, что это правильная дата
-    "end_time": "2025-11-05T23:59:59+00:00",
+    # "start_time": "2025-11-05T00:00:00+00:00",  # Убедитесь, что это правильная дата
+    # "end_time": "2025-11-05T23:59:59+00:00",
     "minimal_response": "true"
 }
 
