@@ -1,7 +1,13 @@
 import requests
 from datetime import datetime
+from config import CONFIG
 
-
+url = CONFIG['ha_url'] + "/api/history/period"
+token = CONFIG['ha_token']
+headers = {
+    "Authorization": f"Bearer {token}",
+    "Content-Type": "application/json",
+}
 
 # Параметры в теле запроса (иногда требуется)
 params = {
