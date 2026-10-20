@@ -12,8 +12,8 @@ headers = {
 # Параметры в теле запроса (иногда требуется)
 params = {
     "filter_entity_id": "sensor.burnerroom_boiler_temperature",
-    "start_time": "2023-12-01T00:00:00+00:00",
-    "end_time": "2023-12-01T23:59:59+00:00",
+    "start_time": "2026-02-01T00:00:00+00:00",
+    "end_time": "2026-02-01T23:59:59+00:00",
     "minimal_response": "true"
 }
 
